@@ -7,7 +7,7 @@ ASSIGNMENT:
 Iteration 1 - Initial Structure
 - Within the odin-recipes (I changed this to recipe-project base don personal preference) directory, create an index.html file.
 - Fill it out with the usual boilerplate HTML and add an h1 heading “Odin Recipes” to the body.
-- 
+
 Iteration 2: Recipe Page
 - Create a new directory within the odin-recipes directory and name it recipes.
 - Create a new HTML file within the recipes directory and name it after the recipe it will contain. For example lasagna.html. You can use the name of your favorite dish or, if you need some inspiration, you can find a recipe to use here.
