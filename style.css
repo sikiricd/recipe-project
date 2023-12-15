@@ -1,0 +1,17 @@
+/* style.css */
+
+/* Universal */
+
+h1,
+#center {
+    text-align: center;
+}
+
+#header {
+    font-size: 20px;
+}
+
+#font {
+    font-family: Verdana, sans-serif;
+}
+
