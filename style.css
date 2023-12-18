@@ -1,17 +1,61 @@
 /* style.css */
 
 /* Universal */
-
-h1,
-#center {
-    text-align: center;
+html {
+    box-sizing: border-box;
 }
 
-#header {
-    font-size: 20px;
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
-#font {
+* {
+    width: 1000px;
     font-family: Verdana, sans-serif;
 }
 
+/* Homepage & Recipe Titles */
+h1,
+#intro {
+    text-align: center;
+}
+
+/* Splitting Homepage Into Three Columns */
+.column {
+    float: left;
+    max-width: 33.33%;
+    border: 1px solid black;
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+}
+  
+/* Prevent Objects From Floating Out of Columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Headers */
+.header {
+    max-width: 100%;
+    text-align: center;
+}
+
+/* Header Font Size */
+.font {
+    font-size: 20px;
+}
+
+/* Images */
+.image {
+    height: 200px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
