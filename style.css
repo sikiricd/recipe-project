@@ -22,7 +22,7 @@ h1,
     text-align: center;
 }
 
-/* Splitting Homepage Into Three Columns */
+/* Split Homepage Into Three Columns */
 .column {
     float: left;
     max-width: 33.33%;
@@ -46,8 +46,9 @@ h1,
 }
 
 /* Header Font Size */
-.font {
+#font {
     font-size: 20px;
+    margin: 32px 0px 16px 0px;
 }
 
 /* Images */
